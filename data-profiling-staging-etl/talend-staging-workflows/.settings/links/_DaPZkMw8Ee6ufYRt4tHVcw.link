@@ -1,0 +1,256 @@
+{
+  "itemId" : "_DaPZkMw8Ee6ufYRt4tHVcw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_ZnA9wMw8Ee6ufYRt4tHVcw",
+    "parameterList" : [ {
+      "id" : "_ZnZ_UMw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_Header"
+    }, {
+      "id" : "_ZnZ_Ucw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_File"
+    }, {
+      "id" : "_ZnZ_Usw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_RowSeparator"
+    }, {
+      "id" : "_ZnZ_U8w8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_FieldSeparator"
+    }, {
+      "id" : "_ZnZ_VMw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_Encoding"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_vO0zsMw8Ee6ufYRt4tHVcw",
+    "parameterList" : [ {
+      "id" : "_vPPDY8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_AdditionalParams"
+    }, {
+      "id" : "_vPPDZ8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Schema"
+    }, {
+      "id" : "_vPPDZcw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Server"
+    }, {
+      "id" : "_vPPDZMw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Login"
+    }, {
+      "id" : "_vPPDYsw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Port"
+    }, {
+      "id" : "_vPPDZsw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Password"
+    }, {
+      "id" : "_vPPDYcw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Database"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_HQ9wMNAxEe6_ObqXzUOgjQ",
+    "parameterList" : [ {
+      "id" : "_HRk0MdAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_FieldSeparator"
+    }, {
+      "id" : "_HRk0NNAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_Encoding"
+    }, {
+      "id" : "_HRk0MtAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_File"
+    }, {
+      "id" : "_HRk0NdAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_RowSeparator"
+    }, {
+      "id" : "_HRk0M9AxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_Header"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_ZnA9wMw8Ee6ufYRt4tHVcw",
+    "parameterList" : [ {
+      "id" : "_ZnZ_Ysw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_Header"
+    }, {
+      "id" : "_ZnZ_Y8w8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_File"
+    }, {
+      "id" : "_ZnZ_ZMw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_RowSeparator"
+    }, {
+      "id" : "_ZnZ_Zcw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_FieldSeparator"
+    }, {
+      "id" : "_ZnZ_Zsw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_Encoding"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_vO0zsMw8Ee6ufYRt4tHVcw",
+    "parameterList" : [ {
+      "id" : "_vPPDc8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_AdditionalParams"
+    }, {
+      "id" : "_vPPDd8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Schema"
+    }, {
+      "id" : "_vPPDdcw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Server"
+    }, {
+      "id" : "_vPPDdMw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Login"
+    }, {
+      "id" : "_vPPDcsw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Port"
+    }, {
+      "id" : "_vPPDdsw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Password"
+    }, {
+      "id" : "_vPPDccw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Database"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_HQ9wMNAxEe6_ObqXzUOgjQ",
+    "parameterList" : [ {
+      "id" : "_HRk0PdAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_FieldSeparator"
+    }, {
+      "id" : "_HRk0QNAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_Encoding"
+    }, {
+      "id" : "_HRk0PtAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_File"
+    }, {
+      "id" : "_HRk0QdAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_RowSeparator"
+    }, {
+      "id" : "_HRk0P9AxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_Header"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_ZnA9wMw8Ee6ufYRt4tHVcw",
+    "parameterList" : [ {
+      "id" : "_ZnZ_Vsw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_Header"
+    }, {
+      "id" : "_ZnZ_V8w8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_File"
+    }, {
+      "id" : "_ZnZ_WMw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_RowSeparator"
+    }, {
+      "id" : "_ZnZ_Wcw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_FieldSeparator"
+    }, {
+      "id" : "_ZnZ_Wsw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_Encoding"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_vO0zsMw8Ee6ufYRt4tHVcw",
+    "parameterList" : [ {
+      "id" : "_vPPDa8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_AdditionalParams"
+    }, {
+      "id" : "_vPPDb8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Schema"
+    }, {
+      "id" : "_vPPDbcw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Server"
+    }, {
+      "id" : "_vPPDbMw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Login"
+    }, {
+      "id" : "_vPPDasw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Port"
+    }, {
+      "id" : "_vPPDbsw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Password"
+    }, {
+      "id" : "_vPPDacw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Database"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_HQ9wMNAxEe6_ObqXzUOgjQ",
+    "parameterList" : [ {
+      "id" : "_HRk0N9AxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_FieldSeparator"
+    }, {
+      "id" : "_HRk0OtAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_Encoding"
+    }, {
+      "id" : "_HRk0ONAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_File"
+    }, {
+      "id" : "_HRk0O9AxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_RowSeparator"
+    }, {
+      "id" : "_HRk0OdAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_Header"
+    } ]
+  }, {
+    "contextName" : "test",
+    "repoId" : "_ZnA9wMw8Ee6ufYRt4tHVcw",
+    "parameterList" : [ {
+      "id" : "_ZnZ_XMw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_Header"
+    }, {
+      "id" : "_ZnZ_Xcw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_File"
+    }, {
+      "id" : "_ZnZ_Xsw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_RowSeparator"
+    }, {
+      "id" : "_ZnZ_X8w8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_FieldSeparator"
+    }, {
+      "id" : "_ZnZ_YMw8Ee6ufYRt4tHVcw",
+      "name" : "cfi_read_data_Encoding"
+    } ]
+  }, {
+    "contextName" : "test",
+    "repoId" : "_vO0zsMw8Ee6ufYRt4tHVcw",
+    "parameterList" : [ {
+      "id" : "_vPPDe8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_AdditionalParams"
+    }, {
+      "id" : "_vPPDf8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Schema"
+    }, {
+      "id" : "_vPPDfcw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Server"
+    }, {
+      "id" : "_vPPDfMw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Login"
+    }, {
+      "id" : "_vPPDesw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Port"
+    }, {
+      "id" : "_vPPDfsw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Password"
+    }, {
+      "id" : "_vPPDecw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Database"
+    } ]
+  }, {
+    "contextName" : "test",
+    "repoId" : "_HQ9wMNAxEe6_ObqXzUOgjQ",
+    "parameterList" : [ {
+      "id" : "_HRk0Q9AxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_FieldSeparator"
+    }, {
+      "id" : "_HRk0RtAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_Encoding"
+    }, {
+      "id" : "_HRk0RNAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_File"
+    }, {
+      "id" : "_HRk0R9AxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_RowSeparator"
+    }, {
+      "id" : "_HRk0RdAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_Header"
+    } ]
+  } ]
+}

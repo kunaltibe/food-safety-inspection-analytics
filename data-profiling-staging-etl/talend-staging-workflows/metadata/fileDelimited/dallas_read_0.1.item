@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <TalendMetadata:DelimitedFileConnection ContextId="_NrFBYNCIEe6cUqVPl0_1lw" ContextMode="true" Encoding="context.dallas_read1_Encoding" FieldSeparatorType="Custom UTF8" FieldSeparatorValue="context.dallas_read1_FieldSeparator" FilePath="context.dallas_read1_File" FirstLineCaption="true" FooterValue="0" Format="WINDOWS" HeaderValue="context.dallas_read1_Header" LimitValue="0" RowSeparatorValue="context.dallas_read1_RowSeparator" Server="Localhost 127.0.0.1" UseHeader="true" contextName="dev" dataPackage="_ncASUdBHEe6_ObqXzUOgjQ" id="_nb_rQNBHEe6_ObqXzUOgjQ" name="dallas_read" xmi:id="_ncASUNBHEe6_ObqXzUOgjQ"/>
+  <orgomg.cwm.resource.record:RecordFile dataManager="_ncASUNBHEe6_ObqXzUOgjQ" name="default" xmi:id="_ncASUdBHEe6_ObqXzUOgjQ">
+    <ownedElement id="_3-kNENBEEe6_ObqXzUOgjQ" label="metadata" xmi:id="_ncASUtBHEe6_ObqXzUOgjQ" xsi:type="TalendMetadata:MetadataTable">
+      <feature label="Restaurant_Name" length="31" name="Restaurant_Name" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPIm0NDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPIm0dDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Inspection_Type" length="20" name="Inspection_Type" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPIm0tDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPIm09DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Inspection_Date" length="20" name="Inspection_Date" originalLength="-1" pattern="&quot;MM/dd/yyyy&quot;" precision="2" sourceType="" talendType="id_Date" xmi:id="_FPIm1NDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPIm1dDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Inspection_Score" length="20" name="Inspection_Score" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_Integer" xmi:id="_FPIm1tDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPIm19DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Street_Number" length="20" name="Street_Number" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_Integer" xmi:id="_FPIm2NDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPIm2dDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Street_Name" length="20" name="Street_Name" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPIm2tDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPIm29DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Street_Direction" length="10" name="Street_Direction" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPIm3NDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPIm3dDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Street_Type" length="20" name="Street_Type" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPIm3tDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPIm39DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Street_Unit" length="20" name="Street_Unit" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPIm4NDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPIm4dDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Street_Address" length="25" name="Street_Address" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJN4NDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN4dDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Zip_Code" length="20" name="Zip_Code" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJN4tDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN49DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___1" length="100" name="Violation_Description___1" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJN5NDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN5dDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___1" length="10" name="Violation_Points___1" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJN5tDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN59DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___1" length="493" name="Violation_Detail___1" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJN6NDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN6dDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___1" length="189" name="Violation_Memo___1" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJN6tDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN69DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___2" length="100" name="Violation_Description___2" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJN7NDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN7dDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___2" length="10" name="Violation_Points___2" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJN7tDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN79DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___2" length="156" name="Violation_Detail___2" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJN8NDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN8dDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___2" length="188" name="Violation_Memo___2" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJN8tDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN89DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___3" length="122" name="Violation_Description___3" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJN9NDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN9dDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___3" length="10" name="Violation_Points___3" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJN9tDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN99DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___3" length="154" name="Violation_Detail___3" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJN-NDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN-dDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___3" length="109" name="Violation_Memo___3" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJN-tDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN-9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___4" length="158" name="Violation_Description___4" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJN_NDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN_dDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___4" length="10" name="Violation_Points___4" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJN_tDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJN_9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___4" length="167" name="Violation_Detail___4" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOANDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOAdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___4" length="28" name="Violation_Memo___4" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOAtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOA9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___5" length="307" name="Violation_Description___5" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOBNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOBdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___5" length="10" name="Violation_Points___5" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJOBtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOB9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___5" length="400" name="Violation_Detail___5" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOCNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOCdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___5" length="111" name="Violation_Memo___5" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOCtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOC9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___6" length="100" name="Violation_Description___6" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJODNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJODdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___6" length="10" name="Violation_Points___6" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJODtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOD9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___6" length="400" name="Violation_Detail___6" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOENDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOEdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___6" length="100" name="Violation_Memo___6" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOEtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOE9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___7" length="250" name="Violation_Description___7" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOFNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOFdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___7" length="-1" name="Violation_Points___7" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJOFtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOF9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___7" length="400" name="Violation_Detail___7" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOGNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOGdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___7" length="100" name="Violation_Memo___7" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOGtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOG9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___8" length="100" name="Violation_Description___8" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOHNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOHdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___8" length="10" name="Violation_Points___8" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJOHtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOH9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___8" length="400" name="Violation_Detail___8" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOINDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOIdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___8" length="100" name="Violation_Memo___8" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOItDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOI9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___9" length="100" name="Violation_Description___9" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOJNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOJdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___9" length="10" name="Violation_Points___9" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJOJtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOJ9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___9" length="400" name="Violation_Detail___9" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOKNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOKdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___9" length="100" name="Violation_Memo___9" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOKtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOK9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___10" length="100" name="Violation_Description___10" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOLNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOLdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___10" length="10" name="Violation_Points___10" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJOLtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOL9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___10" length="400" name="Violation_Detail___10" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOMNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOMdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___10" length="100" name="Violation_Memo___10" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOMtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOM9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___11" length="100" name="Violation_Description___11" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJONNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJONdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___11" length="10" name="Violation_Points___11" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJONtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJON9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___11" length="400" name="Violation_Detail___11" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOONDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOOdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___11" length="100" name="Violation_Memo___11" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOOtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOO9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___12" length="100" name="Violation_Description___12" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOPNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOPdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___12" length="-1" name="Violation_Points___12" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJOPtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOP9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___12" length="400" name="Violation_Detail___12" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOQNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOQdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___12" length="100" name="Violation_Memo___12" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOQtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOQ9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___13" length="100" name="Violation_Description___13" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJORNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJORdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___13" length="10" name="Violation_Points___13" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJORtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOR9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___13" length="400" name="Violation_Detail___13" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOSNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOSdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___13" length="100" name="Violation_Memo___13" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOStDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOS9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___14" length="100" name="Violation_Description___14" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOTNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOTdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___14" length="10" name="Violation_Points___14" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJOTtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOT9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___14" length="400" name="Violation_Detail___14" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOUNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOUdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___14" length="100" name="Violation_Memo___14" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOUtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOU9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___15" length="100" name="Violation_Description___15" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOVNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOVdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___15" length="10" name="Violation_Points___15" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJOVtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOV9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___15" length="400" name="Violation_Detail___15" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOWNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOWdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___15" length="100" name="Violation_Memo___15" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOWtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOW9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___16" length="100" name="Violation_Description___16" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOXNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOXdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___16" length="10" name="Violation_Points___16" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJOXtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOX9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___16" length="400" name="Violation_Detail___16" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOYNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOYdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___16" length="100" name="Violation_Memo___16" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOYtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOY9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___17" length="100" name="Violation_Description___17" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOZNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOZdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___17" length="10" name="Violation_Points___17" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJOZtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOZ9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___17" length="400" name="Violation_Detail___17" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOaNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOadDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___17" length="100" name="Violation_Memo___17" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOatDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOa9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___18" length="100" name="Violation_Description___18" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJObNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJObdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___18" length="10" name="Violation_Points___18" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJObtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOb9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___18" length="400" name="Violation_Detail___18" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOcNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOcdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___18" length="100" name="Violation_Memo___18" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOctDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOc9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___19" length="100" name="Violation_Description___19" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOdNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOddDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___19" length="10" name="Violation_Points___19" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJOdtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOd9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___19" length="400" name="Violation_Detail___19" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOeNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOedDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___19" length="100" name="Violation_Memo___19" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOetDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOe9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___20" length="100" name="Violation_Description___20" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOfNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOfdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___20" length="10" name="Violation_Points___20" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" talendType="id_String" xmi:id="_FPJOftDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOf9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___20" length="400" name="Violation_Detail___20" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOgNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOgdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation__Memo___20" length="100" name="Violation__Memo___20" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOgtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOg9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___21" length="100" name="Violation_Description___21" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOhNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOhdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___21" length="10" name="Violation_Points___21" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOhtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOh9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___21" length="400" name="Violation_Detail___21" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOiNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOidDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___21" length="100" name="Violation_Memo___21" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOitDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOi9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___22" length="100" name="Violation_Description___22" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOjNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOjdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___22" length="10" name="Violation_Points___22" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOjtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOj9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___22" length="400" name="Violation_Detail___22" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOkNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOkdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___22" length="100" name="Violation_Memo___22" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOktDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOk9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___23" length="100" name="Violation_Description___23" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOlNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOldDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___23" length="10" name="Violation_Points___23" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOltDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOl9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___23" length="400" name="Violation_Detail___23" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOmNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOmdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___23" length="100" name="Violation_Memo___23" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOmtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOm9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___24" length="100" name="Violation_Description___24" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOnNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOndDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___24" length="10" name="Violation_Points___24" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOntDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOn9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___24" length="400" name="Violation_Detail___24" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOoNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOodDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___24" length="100" name="Violation_Memo___24" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOotDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOo9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Description___25" length="100" name="Violation_Description___25" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOpNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOpdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Points___25" length="10" name="Violation_Points___25" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOptDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOp9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Detail___25" length="400" name="Violation_Detail___25" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOqNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOqdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Violation_Memo___25" length="100" name="Violation_Memo___25" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOqtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOq9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Inspection_Month" length="8" name="Inspection_Month" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOrNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOrdDrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Inspection_Year" length="8" name="Inspection_Year" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOrtDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOr9DrEe6iEoBFyi8L2g"/>
+      </feature>
+      <feature label="Lat_Long_Location" length="35" name="Lat_Long_Location" originalLength="-1" pattern="&quot;dd-MM-yyyy&quot;" sourceType="" talendType="id_String" xmi:id="_FPJOsNDrEe6iEoBFyi8L2g" xsi:type="TalendMetadata:MetadataColumn">
+        <initialValue body="" xmi:id="_FPJOsdDrEe6iEoBFyi8L2g"/>
+      </feature>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_0a5027fa-9772-457e-bb53-d617f6aa824f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>V7t0Dj1lJFuS0PGmN05ruigiMqzbI4egv8tixNhPNHvV1SMkI3Xkc+kjRVX1IN6oWcongEgeaUHV&#13;
+FkhJcpyzEQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_bae3e313-3c95-43e9-a693-9b0eb04c0426"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ZVmXTheYYxcaIj7Soh34I4LkJxt7AQ+GUmJ2lAUQVn3eze01K53eXSVwRPuQj2l++f4W8zIlq4fd&#13;
+uqJk6/EggQ==</DigestValue></Reference></SignedInfo><SignatureValue>M+MGU4uPajOnrtxJlxWoIbIaJWjWhszTN/OZuQ0mhW8yFciYUSZ2vh3qcruHFfyQmU6mZFPkYrjL&#13;
+0U85MXYMqDJHySCrX2l0Hn6kERzsWR31ht60HVmBJFh+vAwFD67BIiMObA7WhaY09UKVxqReB9f+&#13;
+SSGkid4nCz8WJSg6FBVCxdflTt7OcPkzg1EHBJI5Xy5vztq05OHbkOhgMMeLkat9rkIUvqtR2+Aw&#13;
++gqVPWMi/V7LK5vd4nJun4xm0oD/n7ZnoWlqH4O823SpDhMOgN+yp9QASukxSmqQ+S6H5Tnq+ZMF&#13;
+8TgAJhRjY3zvdMwSzX8LFNBnoKD3QUnhegx63w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_bae3e313-3c95-43e9-a693-9b0eb04c0426" Target="#_0a5027fa-9772-457e-bb53-d617f6aa824f"><Timestamp>2024-02-21 18:57:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
