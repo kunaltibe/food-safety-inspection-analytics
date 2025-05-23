@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="Default" xmi:id="_vPPDYMw8Ee6ufYRt4tHVcw">
+    <contextParameter comment="" name="stg_cfi_load_data_Database" prompt="stg_cfi_load_data_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="dadabi" xmi:id="_vPPDYcw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Port" prompt="stg_cfi_load_data_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1433" xmi:id="_vPPDYsw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_AdditionalParams" prompt="stg_cfi_load_data_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_vPPDY8w8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Login" prompt="stg_cfi_load_data_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="apoorv_damg7370" xmi:id="_vPPDZMw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Server" prompt="stg_cfi_load_data_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_vPPDZcw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Password" prompt="stg_cfi_load_data_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:w26Rrspbf/rpwz15NBvJftAjA8dmrOSwIVem3/jhewlJ8t32bhKn" xmi:id="_vPPDZsw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Schema" prompt="stg_cfi_load_data_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="dbo" xmi:id="_vPPDZ8w8Ee6ufYRt4tHVcw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="dev" xmi:id="_vPPDaMw8Ee6ufYRt4tHVcw">
+    <contextParameter comment="" name="stg_cfi_load_data_Database" prompt="stg_cfi_load_data_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="dadabi" xmi:id="_vPPDacw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Port" prompt="stg_cfi_load_data_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1433" xmi:id="_vPPDasw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_AdditionalParams" prompt="stg_cfi_load_data_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_vPPDa8w8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Login" prompt="stg_cfi_load_data_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="apoorv_damg7370" xmi:id="_vPPDbMw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Server" prompt="stg_cfi_load_data_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_vPPDbcw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Password" prompt="stg_cfi_load_data_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:Lfs57OGceqcwxUPa+XJM3rczZOuwVr/0rmsWg8a8TSygz2mf5tYi" xmi:id="_vPPDbsw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Schema" prompt="stg_cfi_load_data_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="dbo" xmi:id="_vPPDb8w8Ee6ufYRt4tHVcw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="prod" xmi:id="_vPPDcMw8Ee6ufYRt4tHVcw">
+    <contextParameter comment="" name="stg_cfi_load_data_Database" prompt="stg_cfi_load_data_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="dadabi" xmi:id="_vPPDccw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Port" prompt="stg_cfi_load_data_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1433" xmi:id="_vPPDcsw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_AdditionalParams" prompt="stg_cfi_load_data_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_vPPDc8w8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Login" prompt="stg_cfi_load_data_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="apoorv_damg7370" xmi:id="_vPPDdMw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Server" prompt="stg_cfi_load_data_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_vPPDdcw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Password" prompt="stg_cfi_load_data_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:CbsSx3YsLzNq6BhZFykE95PsuRV5jQ4n3l2QZquxPpHNcsy/ImTU" xmi:id="_vPPDdsw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Schema" prompt="stg_cfi_load_data_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="dbo" xmi:id="_vPPDd8w8Ee6ufYRt4tHVcw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" hide="false" name="test" xmi:id="_vPPDeMw8Ee6ufYRt4tHVcw">
+    <contextParameter comment="" name="stg_cfi_load_data_Database" prompt="stg_cfi_load_data_Database?" promptNeeded="false" repositoryContextId="" type="id_String" value="dadabi" xmi:id="_vPPDecw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Port" prompt="stg_cfi_load_data_Port?" promptNeeded="false" repositoryContextId="" type="id_String" value="1433" xmi:id="_vPPDesw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_AdditionalParams" prompt="stg_cfi_load_data_AdditionalParams?" promptNeeded="false" repositoryContextId="" type="id_String" value="" xmi:id="_vPPDe8w8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Login" prompt="stg_cfi_load_data_Login?" promptNeeded="false" repositoryContextId="" type="id_String" value="apoorv_damg7370" xmi:id="_vPPDfMw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Server" prompt="stg_cfi_load_data_Server?" promptNeeded="false" repositoryContextId="" type="id_String" value="localhost" xmi:id="_vPPDfcw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Password" prompt="stg_cfi_load_data_Password?" promptNeeded="false" repositoryContextId="" type="id_Password" value="enc:system.encryption.key.v1:vETyQBa33RH3QAZxCU2ONBnqvyzT3Z4COpMTjAcx8WJkPHbyi0vy" xmi:id="_vPPDfsw8Ee6ufYRt4tHVcw"/>
+    <contextParameter comment="" name="stg_cfi_load_data_Schema" prompt="stg_cfi_load_data_Schema?" promptNeeded="false" repositoryContextId="" type="id_String" value="dbo" xmi:id="_vPPDf8w8Ee6ufYRt4tHVcw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_54f8c0e6-7f20-4376-86d4-7b0f64e6026b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Ms4gRZAEm/BLqWfB6XzNd5fO2t1hLGSK4VrmiJ+F2NDqbR5BOY0bVGmR+0jFxZLXC6LVW6k/PUD+&#13;
+n33ptOWhmQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f8f88d23-a222-48b0-8947-e86e1c1a2a66"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ssr/6jyIXQ+KNIC5aP1POL3SOBXx2zq9rES2yxDhA8967sgJEB9q1D4dIyNN7B708506ufbOOFJc&#13;
+o5DjqpcrkQ==</DigestValue></Reference></SignedInfo><SignatureValue>YythmiTzjGmKGKXPe4r+uAJ0aIuX/ZfWDNYak8e4JfnIgKjU3AdTDzT8ccvw9tbTBxeBBmpEC8JK&#13;
+LLdJp6NaEZHVF6v1zbK9NJO72BaC8viIZE4eZSliPszu4mEdEar8YdsosWraCzw4uPRq723O4TOK&#13;
+4gXscaHg38u9YjkiLXafQT38fUhIsdUD95goZ0HFT4RpvNdGGG0YhliTmFgwx8s7aLfgG9namn5A&#13;
+wx+fn1koVIDOHezcLFVqE2S5zU6N/G3KkZTPg80xYCu7DIfpnjR6Ce0XYF9uvxTfUNooAS5wMrMe&#13;
+x9eAXzTDC11TO3LAsWcSAjGFUspYDwqEGmnxCA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f8f88d23-a222-48b0-8947-e86e1c1a2a66" Target="#_54f8c0e6-7f20-4376-86d4-7b0f64e6026b"><Timestamp>2024-02-15 19:59:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

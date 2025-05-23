@@ -1,0 +1,204 @@
+{
+  "itemId" : "_qncLwNM1Ee6mMYMkjilGtg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_vO0zsMw8Ee6ufYRt4tHVcw",
+    "parameterList" : [ {
+      "id" : "_vPPDYcw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Database"
+    }, {
+      "id" : "_vPPDYsw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Port"
+    }, {
+      "id" : "_vPPDY8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_AdditionalParams"
+    }, {
+      "id" : "_vPPDZMw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Login"
+    }, {
+      "id" : "_vPPDZcw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Server"
+    }, {
+      "id" : "_vPPDZsw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Password"
+    }, {
+      "id" : "_vPPDZ8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Schema"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_7KNc8NA0Ee6_ObqXzUOgjQ",
+    "parameterList" : [ {
+      "id" : "_7KvBYdA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Schema"
+    }, {
+      "id" : "_7KvBZdA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Database"
+    }, {
+      "id" : "_7KvBZNA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Password"
+    }, {
+      "id" : "_7KvBZtA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Login"
+    }, {
+      "id" : "_7KvBZ9A0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Server"
+    }, {
+      "id" : "_7KvBYtA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Port"
+    }, {
+      "id" : "_7KvBY9A0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_vO0zsMw8Ee6ufYRt4tHVcw",
+    "parameterList" : [ {
+      "id" : "_vPPDccw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Database"
+    }, {
+      "id" : "_vPPDcsw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Port"
+    }, {
+      "id" : "_vPPDc8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_AdditionalParams"
+    }, {
+      "id" : "_vPPDdMw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Login"
+    }, {
+      "id" : "_vPPDdcw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Server"
+    }, {
+      "id" : "_vPPDdsw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Password"
+    }, {
+      "id" : "_vPPDd8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Schema"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_7KNc8NA0Ee6_ObqXzUOgjQ",
+    "parameterList" : [ {
+      "id" : "_7KvBcdA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Schema"
+    }, {
+      "id" : "_7KvBddA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Database"
+    }, {
+      "id" : "_7KvBdNA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Password"
+    }, {
+      "id" : "_7KvBdtA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Login"
+    }, {
+      "id" : "_7KvBd9A0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Server"
+    }, {
+      "id" : "_7KvBctA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Port"
+    }, {
+      "id" : "_7KvBc9A0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_vO0zsMw8Ee6ufYRt4tHVcw",
+    "parameterList" : [ {
+      "id" : "_vPPDacw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Database"
+    }, {
+      "id" : "_vPPDasw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Port"
+    }, {
+      "id" : "_vPPDa8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_AdditionalParams"
+    }, {
+      "id" : "_vPPDbMw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Login"
+    }, {
+      "id" : "_vPPDbcw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Server"
+    }, {
+      "id" : "_vPPDbsw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Password"
+    }, {
+      "id" : "_vPPDb8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Schema"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_7KNc8NA0Ee6_ObqXzUOgjQ",
+    "parameterList" : [ {
+      "id" : "_7KvBadA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Schema"
+    }, {
+      "id" : "_7KvBbdA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Database"
+    }, {
+      "id" : "_7KvBbNA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Password"
+    }, {
+      "id" : "_7KvBbtA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Login"
+    }, {
+      "id" : "_7KvBb9A0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Server"
+    }, {
+      "id" : "_7KvBatA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Port"
+    }, {
+      "id" : "_7KvBa9A0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_AdditionalParams"
+    } ]
+  }, {
+    "contextName" : "test",
+    "repoId" : "_vO0zsMw8Ee6ufYRt4tHVcw",
+    "parameterList" : [ {
+      "id" : "_vPPDecw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Database"
+    }, {
+      "id" : "_vPPDesw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Port"
+    }, {
+      "id" : "_vPPDe8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_AdditionalParams"
+    }, {
+      "id" : "_vPPDfMw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Login"
+    }, {
+      "id" : "_vPPDfcw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Server"
+    }, {
+      "id" : "_vPPDfsw8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Password"
+    }, {
+      "id" : "_vPPDf8w8Ee6ufYRt4tHVcw",
+      "name" : "stg_cfi_load_data_Schema"
+    } ]
+  }, {
+    "contextName" : "test",
+    "repoId" : "_7KNc8NA0Ee6_ObqXzUOgjQ",
+    "parameterList" : [ {
+      "id" : "_7KvBedA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Schema"
+    }, {
+      "id" : "_7KvBfdA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Database"
+    }, {
+      "id" : "_7KvBfNA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Password"
+    }, {
+      "id" : "_7KvBftA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Login"
+    }, {
+      "id" : "_7KvBf9A0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Server"
+    }, {
+      "id" : "_7KvBetA0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_Port"
+    }, {
+      "id" : "_7KvBe9A0Ee6_ObqXzUOgjQ",
+      "name" : "stg_dfi_load_data_AdditionalParams"
+    } ]
+  } ]
+}

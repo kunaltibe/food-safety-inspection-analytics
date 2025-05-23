@@ -1,0 +1,23 @@
+{
+  "itemId" : "_kPFsYNAxEe6_ObqXzUOgjQ",
+  "contextList" : [ {
+    "contextName" : "dev",
+    "repoId" : "_HQ9wMNAxEe6_ObqXzUOgjQ",
+    "parameterList" : [ {
+      "id" : "_HRk0N9AxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_FieldSeparator"
+    }, {
+      "id" : "_HRk0ONAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_File"
+    }, {
+      "id" : "_HRk0OdAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_Header"
+    }, {
+      "id" : "_HRk0OtAxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_Encoding"
+    }, {
+      "id" : "_HRk0O9AxEe6_ObqXzUOgjQ",
+      "name" : "cfi_read_vl_RowSeparator"
+    } ]
+  } ]
+}
